@@ -5,7 +5,7 @@ description: "Dats Insights and Stories!!"
 logo: apple-icon-120x120.png # 120x120 px default image used for Twitter summary card
 teaser: Stats_and_content.png # 400x250 px default teaser image used in image archive grid
 locale: en
-url: https://www.statsmatter.in
+url: 
 feed:
   path: atom.xml
 
