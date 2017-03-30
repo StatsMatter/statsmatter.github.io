@@ -1,0 +1,39 @@
+# Site wide configuration
+
+title: "Home"
+description: "Bioinformatics Analysis for the Harvard Community"
+logo: site_logo_120x120.gif
+teaser: teaser_400x250.gif
+locale: en_US
+url: http://hbc.github.io
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: Harvard Chan Bioinformatics Core
+  web: http://hbc.github.io 
+  email: bioinformatics@hsph.harvard.edu
+  twitter: 
+  bio: "Bioinfomatics Analysis for the Harvard Community"
+  avatar: bio-photoi_160x160.jpg # 160x160 px image for author byline
+  google:
+    plus:
+    ad-client:
+    ad-slot:
+    google_analytics: UA-70692942-1        
+  disqus-shortname:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
