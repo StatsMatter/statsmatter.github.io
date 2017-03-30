@@ -1,14 +1,7 @@
 # Footer navigation links
 
-- title:
-  url:
-
-
-- title: About
-  url: /about/
-
-- title: Research
-  url: /research/
-
-- title: Subscribe
-  url: http://eepurl.com/cu6l3H
+- title: Facebook
+  url: https://www.facebook.com/Statsmatter/
+  
+- title: Instagram
+  url: https://www.instagram.com/statsmatterindia/

@@ -1,16 +1,14 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
-
+- title: Instagram
+  url: /instagram/
+  excerpt: "Sync with Instagram: statsmatterindia"
+  image: instagram.jpeg
+  
+  
+  
+  
 - title: About
   url: /about/
   excerpt: "About this site"
-
-- title: Instagram
-  url: /instagram/
-
-- title: Subscribe
-  url: http://eepurl.com/cu6l3H
+  
