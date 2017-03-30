@@ -1,6 +1,6 @@
 ---
 layout: media
-permalink: /instagram
+permalink: /instagram/
 title: "Follow StatsMatter on Instagram"
 defaults:
   # _pages
