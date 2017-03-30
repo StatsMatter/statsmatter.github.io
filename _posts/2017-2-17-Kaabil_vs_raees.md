@@ -1,6 +1,6 @@
 ---
 title: "Bollywood Fight: Kaabil vs Raees"
-author: "Vipul Pandey"
+# author: "Vipul Pandey"
 layout: article
 date: "February 14, 2017"
 permalink: /kaabilraees/

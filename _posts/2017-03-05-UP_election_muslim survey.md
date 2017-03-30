@@ -1,6 +1,6 @@
 ---
 title: "Who will win Muslims vote in  UP? "
-author: "Vipul Pandey"
+# author: "Vipul Pandey"
 layout: article
 date: "March 05, 2017"
 # modified: 2014-08-27
