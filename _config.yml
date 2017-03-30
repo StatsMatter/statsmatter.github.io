@@ -23,6 +23,10 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
+
+# Tracker
+analytics: UA-77712361-1
+
 # keep images at around 1024 x 256 on posts
 # Site owner
 owner: 
