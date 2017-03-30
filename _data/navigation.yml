@@ -7,9 +7,10 @@
 
 - title: About
   url: /about/
+  excerpt: "About this site"
 
-- title: Research
-  url: /research/
+- title: Instagram
+  url: /instagram/
 
 - title: Subscribe
   url: http://eepurl.com/cu6l3H
