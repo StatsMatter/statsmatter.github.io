@@ -1,11 +1,11 @@
 # Site wide configuration
 
 title: "StatsMatter"
-description: "Data analysis and journalism"
-logo: Aneuron.jpg # 120x120 px default image used for Twitter summary card
+description: "Dats Insights and Stories!!"
+logo: apple-icon-120x120.png # 120x120 px default image used for Twitter summary card
 teaser: Stats_and_content.png # 400x250 px default teaser image used in image archive grid
 locale: en
-url:
+url: https://statsmatter.github.io
 feed:
   path: atom.xml
 
@@ -25,20 +25,20 @@ gems:
 
 
 # Site owner
-owner:
-  name: Vipul Pandey
-  email: vipul@darpn.com
-  twitter: statsmatterind
+owner: 
+  name: "   Vipul Pandey"
+  email: "vipul@darpn.com"
+  twitter:
   google:
-    ad-client: ca-pub-2603445030656932
-    ad-slot: 3827418203
-  bio: 
+    ad-client: "ca-pub-2603445030656932"
+    ad-slot: "3827418203"
+  bio:
   avatar: bitmoji2019612813.png # 160x160 px image for author byline
   disqus-shortname: statsmatter
 
-
+include: ["_pages"]
 include:
-  - .htaccess
+  - .htaccess  
 exclude:
   - "*.less"
   - "*.sublime-project"
@@ -62,5 +62,3 @@ exclude:
   - package.json
   - spec
   - tmp
-  
-gems: [jekyll-paginate, jekyll-seo-tag]
