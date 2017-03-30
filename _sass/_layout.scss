@@ -21,7 +21,7 @@
 .site-title {
 	@include row;
 	@include media($large) {
-		@include span-columns(3);
+		@include span-columns(4);
 	}
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
@@ -90,7 +90,7 @@
 		@include span-columns(12);
 	}
 	@include media($large) {
-		@include span-columns(9);
+		@include span-columns(7);
 		ul {
 			position: absolute;
 			right: 0;
@@ -162,9 +162,8 @@
 			}
 			// cleaner underlines for links
 			a { text-decoration: none; }
-			table a,
 			p a,
-			li a { text-decoration: none;
+			li a {
 				border-bottom: 1px dotted lighten($link-color, 50);
 				&:hover {
 					border-bottom-style: solid;
