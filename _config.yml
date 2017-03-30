@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: "Intuitions behind the world"
-description: "Intuitions for Machine Learning and deep Learning"
+title: "StatsMatter"
+description: "Data Insights and Stories"
 logo: Aneuron.jpg # 120x120 px default image used for Twitter summary card
 teaser: teaser.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
