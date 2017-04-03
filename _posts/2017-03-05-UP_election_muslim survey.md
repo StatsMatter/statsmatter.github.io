@@ -1,17 +1,20 @@
 ---
-title: "Who will win Muslims vote in  UP? "
-# author: "Vipul Pandey"
+title: 'Who will win Muslims vote in  UP? '
+date: 2017-03-05 00:00:00 Z
+permalink: "/up_poll_survey/"
+categories:
+- politics
+tags:
+- emotionanalytics
+- surveyUP
+- india
+- election2017
+- BSP
+- '2017'
 layout: article
-date: "March 05, 2017"
-# modified: 2014-08-27
-permalink: /up_poll_survey/
-categories: politics
-tags: [emotionanalytics,surveyUP, india, election2017,BSP,"2017"]
 image:
-    teaser: uttar-pradesh-election.jpg
-    feature: uttar-pradesh-election.jpg
-# credit: Michael Rose #name of the person or site you want to credit
-# creditlink: https://mademistakes.com #url to their site or licensing
+  teaser: uttar-pradesh-election.jpg
+  feature: uttar-pradesh-election.jpg
 comments: true
 output: html_document
 ---
