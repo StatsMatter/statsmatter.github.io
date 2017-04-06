@@ -12,7 +12,7 @@ description: Dats Insights and Stories!!
 logo: apple-icon-120x120.png
 teaser: Stats_and_content.png
 locale: en
-url: https://statsmatter.github.io
+url: 
 feed:
   path: atom.xml
 sass:
