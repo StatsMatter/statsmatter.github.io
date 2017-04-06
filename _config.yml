@@ -1,68 +1,64 @@
-# Site wide configuration
-
-title: "StatsMatter"
-description: "Dats Insights and Stories!!"
-logo: apple-icon-120x120.png # 120x120 px default image used for Twitter summary card
-teaser: Stats_and_content.png # 400x250 px default teaser image used in image archive grid
+---
+title: StatsMatter
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Dats Insights and Stories!!
+logo: apple-icon-120x120.png
+teaser: Stats_and_content.png
 locale: en
 url: https://statsmatter.github.io
 feed:
   path: atom.xml
-
-# Jekyll configuration
-
 sass:
   sass_dir: _sass
   style: compressed
-permalink: /:categories/:title/
+permalink: "/:categories/:title/"
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
 gems:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-
-
-# Tracker
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
 analytics: UA-77712361-1
-
-# keep images at around 1024 x 256 on posts
-# Site owner
-owner: 
+owner:
   name: "   Vipul Pandey"
-  email: "vipul@darpn.com"
-  twitter:
+  email: vipul@darpn.com
+  twitter: 
   google:
-    ad-client: "ca-pub-2603445030656932"
-    ad-slot: "3827418203"
-  bio:
-  avatar: bitmoji2019612813.png # 160x160 px image for author byline
+    ad-client: ca-pub-2603445030656932
+    ad-slot: '3827418203'
+  bio: 
+  avatar: bitmoji2019612813.png
   disqus-shortname: statsmatter
-
-include: ["_pages"]
 include:
-  - .htaccess  
+- ".htaccess"
 exclude:
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
+- "*.less"
+- "*.sublime-project"
+- "*.sublime-workspace"
+- ".asset-cache"
+- ".bundle"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- CHANGELOG
+- Capfile
+- Gemfile
+- Gruntfile.js
+- LICENSE
+- README
+- Rakefile
+- config
+- gulpfile.js
+- lib
+- log
+- node_modules
+- package.json
+- spec
+- tmp
